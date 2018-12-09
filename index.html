@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=1024, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ahıska Cup</title>
-    <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/3.2.89/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
 
 <body>
@@ -22,8 +23,56 @@
             </div>
         </div>
     </div>
-    <div class="wrapper">
+
+    <div class="carousel carousel-main" data-flickity='{"pageDots": false,"prevNextButtons": false}'>
+      <div class="slide"><img class="bg" src="/img/gallery/img (1).jpg"></div>
+      <div class="slide"><img class="bg" src="/img/gallery/img (2).jpg"></div>
+      <div class="slide"><img class="bg" src="/img/gallery/img (3).jpg"></div>
+      <div class="slide"><img class="bg" src="/img/gallery/img (4).jpg"></div>
+      <div class="slide"><img class="bg" src="/img/gallery/img (5).jpg"></div>
+      <div class="slide"><img class="bg" src="/img/gallery/img (6).jpg"></div>
+      <div class="slide"><img class="bg" src="/img/gallery/img (7).jpg"></div>
+      <div class="slide"><img class="bg" src="/img/gallery/img (8).jpg"></div>
+      <div class="slide"><img class="bg" src="/img/gallery/img (9).jpg"></div>
+      <div class="slide"><img class="bg" src="/img/gallery/img (10).jpg"></div>
     </div>
+    
+    <div class="carousel carousel-nav"
+      data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false }'>
+      <div class="slide-nav"><img width="400" src="/img/gallery/img (1).jpg"></div>
+      <div class="slide-nav"><img width="400" src="/img/gallery/img (2).jpg"></div>
+      <div class="slide-nav"><img width="400" src="/img/gallery/img (3).jpg"></div>
+      <div class="slide-nav"><img width="400" src="/img/gallery/img (4).jpg"></div>
+      <div class="slide-nav"><img width="400" src="/img/gallery/img (5).jpg"></div>
+      <div class="slide-nav"><img width="400" src="/img/gallery/img (6).jpg"></div>
+      <div class="slide-nav"><img width="400" src="/img/gallery/img (7).jpg"></div>
+      <div class="slide-nav"><img width="400" src="/img/gallery/img (8).jpg"></div>
+      <div class="slide-nav"><img width="400" src="/img/gallery/img (9).jpg"></div>
+      <div class="slide-nav"><img width="400" src="/img/gallery/img (10).jpg"></div>
+    </div>
+    
+    <div class="wrapper">
+        <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint unde itaque esse nam, delectus ipsa maxime maiores voluptas accusamus iusto quibusdam, quasi facilis, quaerat libero adipisci praesentium. Recusandae, molestias rem praesentium tempora, labore excepturi itaque animi enim dolorem minus iste minima eaque distinctio neque, rerum quaerat quisquam odio hic. </h1>
+    </div>
+<div class="footer">
+    <div class="wrapper">
+<hr class="separator"/>
+<h3><b>Больше у нас в социальныз сетях</b></h3>
+<h4>Наши страницы доступны в Facebook и Instagram</h4>
+<div class="social">
+        <a class="nav-button" id="facebook" href="#"><img class="icon" src="/img/icons/facebook.svg" /><div class="tooltip">Facebook</div></a>
+        <a class="nav-button" id="instagram"href="#"><img class="icon" src="/img/icons/instagram.svg" /><div class="tooltip">Instagram</div></a>
+        <a class="nav-button" id="youtube"href="#"><img class="icon" src="/img/icons/youtube.svg" /><div class="tooltip">Youtube</div></a>
+</div>
+<div class="copyright"> <ul class="menu">
+    <li>© Официально. Все права защищены.</li>   
+    <li id="by">Design by: <a href="http://instagram.com/bayram.23">Bayram.23</a></li>
+</ul>
+</div>
+    </div>
+</div>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 
 </html>
