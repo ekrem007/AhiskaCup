@@ -40,6 +40,10 @@ body {
     display: flex;
 }
 
+.navbar li {
+    display: flex;
+}
+
 .nav-button {
     box-shadow: inset 0 0 0 50px transparent, 0 0 0 50px transparent;
     border-radius: 100px;
